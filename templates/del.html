@@ -1,0 +1,9 @@
+<h1>Are you want to delete {{pro.name}}</h1>
+
+
+
+<form method="post">
+    {% csrf_token %}
+    {{form}}
+      <button type="submit">Yes, Delete</button>
+</form>
